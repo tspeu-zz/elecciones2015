@@ -17,4 +17,6 @@ List
 
 ![ScreenShot](https://raw.github.com/tspeu/elecciones2015/master/www/img/demo/e5.PNG)
 
+![ScreenShot](https://raw.github.com/tspeu/elecciones2015/master/www/img/demo/e6.PNG)
+
 
