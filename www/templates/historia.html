@@ -1,0 +1,15 @@
+<ion-view view-title="Historia">
+  <ion-content>
+    <div class=" card" ng-repeat="hist in partidos | filter: { id: ipPartido }">
+
+
+
+          <img ng-src="{{hist.letras}}"/>
+      
+      <div class="item item-text-wrap">
+        {{ hist.historia }}
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>

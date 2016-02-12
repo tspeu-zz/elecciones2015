@@ -1,0 +1,7 @@
+<ion-view view-title="actualidad">
+  <ion-content ng-repeat="actual in partidos | filter: { id: ipPartido }">
+      <img ng-src="{{actual.letras}}"/>
+      <h1 class="{{actual.colorionic}}">actualidad</h1>
+
+  </ion-content>
+</ion-view>

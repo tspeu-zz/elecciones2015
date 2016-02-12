@@ -1,0 +1,96 @@
+{
+  "partidos":
+  [
+    {
+      "id"    : 0,
+      "nombre": "Partido Popular",
+      "siglas": "PP",
+      "candidato": "Mariano Rajoy",
+      "cargo" : "Presidente",
+      "logo": "img/l-pp.png",
+      "letras": "img/pp.png",
+      "foto": "m-rajoy",
+      "colorionic": "positive",
+      "color" : "0BB2FF",
+      "programa": [
+        {
+          "economia": "PP Recortes Economicos",
+          "social": "PP Recortes social",
+          "educacion": "PP Recortes para los estudios",
+          "sanidad": "PP Recortes para la salud"
+        }
+      ],
+      "ideologia" : "derechas",
+      "historia"  : "1976  Manuel Fraga funda Alianza Popular. 1977: Se celebra el I Congreso Nacional de Alianza Popular cuyo Presidente fue Federico Silva Muñoz y Secretario General Manuel Fraga.1977: Se celebra el I Congreso Nacional de Alianza Popular cuyo Presidente fue Federico Silva Muñoz y Secretario General Manuel Fraga. 1978: II Congreso Nacional, elegidos Félix Pastor Ridruejo como Presidente y Manuel Fraga Secretario General de Alianza Popular. Se aprueba la Constitución Española. 1979: III Congreso de Nacional de Alianza Popular. Manuel Fraga es elegido Presidente y Jorge Verstrynge Roja Secretario General. 1981, 1982, 1984, 1986: Son celebrados los Congresos Nacionales IV, V, VI, VII respectivamente y en todos son elegidos como Presidente Manuel Fraga y Secretario General Jorge Verstrynge. 1987: Antonio Hernández-Mancha es elegido frente a Rodríguez Miñón Presidente y Arturo Garcia Secretario General en el VIII Congreso Nacional de Alianza Popular. 1989: Se plantea reconducir la situación frente a la mayoría absoluta del PSOE en el IX Congreso Nacional de Alianza Popular denominado el Congreso de la Refundación. Son elegidos Manuel Fraga como Presidente y Francisco Álvarez-Cascos como Secretario General. Alianza Popular pasa a llamarse Partido Popular",
+      "web": "http://www.pp.es/"
+    },
+    {
+      "id"    : 1,
+      "nombre": "Partido Socialista Español",
+      "siglas": "Psoe ",
+      "candidato": "Pedro Sánchez",
+      "cargo" : "Secretario general",
+      "logo": "img/l-psoe.png",
+      "letras" : "img/psoe.png",
+      "foto": "p-sanchez",
+      "colorionic": "assertive",
+      "color" : "#EE1C25",
+      "programa": [
+        {
+          "economia": "psoe algo aqui",
+          "social": "psoe algo como eso",
+          "educacion": "psoe esto para los estudios",
+          "sanidad": "psoe esto es salud"
+          }
+      ],
+      "ideologia" : "algo",
+      "historia"  : "El Partido Socialista se fundó clandestinamente en Madrid, el 2 de mayo de 1879, en torno a un núcleo de intelectuales y obreros, fundamentalmente tipógrafos, encabezados por Pablo Iglesias.El primer programa del nuevo partido político fue aprobado en una asamblea de 40 personas, el 20 de julio de ese mismo año.El PSOE fue así uno de los primeros partidos socialistas que se fundaron en Europa, como expresión de los afanes e intereses de las nuevas clases trabajadoras nacidas de la revolución industrial.",
+      "web": "http://www.psoe.es/"
+    },
+    {
+      "id"    : 2,
+      "nombre": "Podemos",
+      "siglas": "Podemos",
+      "candidato": "Pablo Iglesias",
+      "cargo" : "Secretario general",
+      "logo": "img/l-podemos.png",
+      "letras" : "img/podemos.png",
+      "foto": "p-iglesias",
+      "colorionic": "royal",
+      "color" : "#612D62",
+      "programa": [
+        {
+          "economia": "Podemos algo aqui",
+          "social": "Podemos algo como eso",
+          "educacion": "Podemos esto para los estudios",
+          "sanidad": "Podemos esto es salud"
+        }
+      ],
+      "ideologia" : "Podemos algo",
+      "historia"  : "Podemos es un partido político español fundado en enero de 2014, cuyo secretario general es Pablo Iglesias Turrión. Cuatro meses después de su formación, Podemos participó en las elecciones europeas de 2014, logrando cinco escaños (de 54) con el 7,98 % de los votos, lo que lo convirtió en el cuarto partido más votado de España. En los primeros veinte días que permitió la inscripción, reunió más de 100 000 miembros, convirtiéndose en el tercer partido en número de afiliados11 y en octubre ostentaba ya el segundo lugar, con más de 200 000.12 También llegó a aparecer como el primer partido del país en intención directa de voto, según las encuestas",
+      "web": "http://www.podemos.es/"
+    },{
+      "id"    : 3,
+      "nombre": "Ciudadanos",
+      "siglas": "C's",
+      "candidato": "Albert Rivera",
+      "cargo" : "Presidente",
+      "logo": "img/l-ciudadanos.png",
+      "letras" : "img/ciudadanos.png",
+      "foto": "a-rivera",
+      "colorionic": "energized",
+      "color" : "#EB6109",
+      "programa": [
+        {
+          "economia": "ciudadanos algo aqui",
+          "social": "ciudadanos algo como eso",
+          "educacion": "ciudadanos esto para los estudios",
+          "sanidad": "ciudadanos esto es salud"
+        }
+      ],
+      "ideologia" : "ciudadanos algo",
+      "historia"  : "Ciudadanos es un partido político español, cuyo presidente es Albert Rivera. Fundado en 2006 en Barcelona, siendo su germen la plataforma cívica Ciutadans de Catalunya, con los años se ha extendido a toda España, alcanzando representación en diversos órganos legislativos de comunidades autónomas, en el Parlamento Europeo y en algunos municipios del país. Se autodefine como un partido constitucionalista.",
+      "web": "https://www.ciudadanos-cs.org/"
+    }
+  ]
+}

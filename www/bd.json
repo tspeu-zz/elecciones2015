@@ -1,0 +1,65 @@
+{
+  "partidos":
+  [
+    {
+      "id"    : 0,
+      "nombre": "Partido Popular",
+      "siglas": "PP",
+      "candidato": "Mariano Rajoy",
+      "logo": "img/l-pp.png",
+      "letras": "img/pp.png",
+      "foto": "m-rajoy",
+      "programa": [
+        {
+          "economia": "PP Recortes Economicos",
+          "social": "PP Recortes social",
+          "educacion": "Pp Recortes para los estudios",
+          "sanidad": "PP Recortes para la salud"
+        }
+      ],
+      "ideologia" : "derechas",
+      "historia"  : "1976  Manuel Fraga funda Alianza Popular.1977: Se celebra el I Congreso Nacional de Alianza Popular cuyo Presidente fue Federico Silva Muñoz y Secretario General Manuel Fraga.",
+      "web": "http://www.pp.es/"
+    },
+    {
+      "id"    : 1,
+      "nombre": "Partido Socialista Español",
+      "siglas": "Psoe ",
+      "candidato": "Pedro Sánchez",
+      "logo": "img/l-psoe.png",
+      "letras" : "img/psoe.png",
+      "foto": "p-sanchez",
+      "programa": [
+        {
+          "economia": "psoe algo aqui",
+          "social": "psoe algo como eso",
+          "educacion": "psoe esto para los estudios",
+          "sanidad": "psoe esto es salud"
+          }
+      ],
+      "ideologia" : "algo",
+      "historia"  : "algo",
+      "web": "http://www.psoe.es/"
+    },
+    {
+      "id"    : 2,
+      "nombre": "Podemos",
+      "siglas": "Podemos ",
+      "candidato": "Pabo Iglesias",
+      "logo": "img/l-podemos.png",
+      "letras" : "img/podemos.png",
+      "foto": "p-iglesias",
+      "programa": [
+        {
+          "economia": "Podemos algo aqui",
+          "social": "Podemos algo como eso",
+          "educacion": "Podemos esto para los estudios",
+          "sanidad": "Podemos esto es salud"
+        }
+      ],
+      "ideologia" : "Podemos algo",
+      "historia"  : "algo",
+      "web": "http://podemos.info/"
+    }
+  ]
+}

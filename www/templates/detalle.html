@@ -1,0 +1,47 @@
+<ion-view view-title="Programa">
+<ion-content>
+  <div class="list " ng-repeat="item in partidos | filter: { id: ipPartido }">
+
+    <div class="item ">
+      <img ng-src="{{item.letras}}"/>
+    </div>
+
+      <div class="card " ng-repeat="programa in item.programa ">
+        <div class="item item-divider {{item.colorionic}}">Economico</div>
+          <div class="item item-text-wrap">
+            {{programa.economia}}
+          </div>
+        <div class="item item-divider {{item.colorionic}}">Social</div>
+          <div class="item item-text-wrap">
+            {{programa.social}}
+          </div>
+        <div class="item item-divider {{item.colorionic}}">Educación</div>
+          <div class="item item-text-wrap">
+            {{programa.educacion}}
+          </div>
+        <div class="item item-divider {{item.colorionic}}">Sanidad</div>
+          <div class="item item-text-wrap">
+            {{programa.sanidad}}
+          </div>
+      </div>
+
+
+<!--
+      <div class="item tabs tabs-secondary tabs-icon-left">
+        <a class="tab-item" href="#">
+          <i class="icon ion-thumbsup"></i>
+          Like
+        </a>
+        <a class="tab-item" href="#">
+          <i class="icon ion-chatbox"></i>
+          Comment
+        </a>
+        <a class="tab-item" href="#">
+          <i class="icon ion-share"></i>
+          Share
+        </a>
+      </div>
+-->
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,19 @@
+<ion-view view-title="Partidos Políticos">
+
+  <ion-content class="padding-top">
+    <!--<ion-refresher on-refresh="doRefresh()"  class="has-subheader">
+    </ion-refresher>-->
+    <ion-list >
+      <ion-item class="item-thumbnail-left"
+      ng-repeat="item in partidos | filter: { shortname: ipPartido }"
+      href="#/app/playlists/{{item.id}}" >
+
+            <img ng-src="{{item.logo}}"/>
+            <h3 class="{{item.colorionic}}"> {{ item.nombre  }} </h3>
+            <h2 class="{{item.colorionic}}"> {{ item.siglas }} </h2>
+            <!--<p> {{ item.candidato }} </p>-->
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

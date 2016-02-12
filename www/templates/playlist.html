@@ -1,0 +1,44 @@
+<ion-view view-title="Detalle Partido" >
+  <ion-content ng-repeat="item in partidos | filter: { id: ipPartido } ">
+    <!--letras -->
+
+    <div class="list card" >
+      <img ng-src="{{item.letras}}"/>
+
+        <div class="item item-avatar" >
+          <img ng-src="img/{{item.foto}}.jpg">
+
+          <h2> {{item.candidato  }} </h2>
+          <p>{{item.cargo}}</p>
+          <!--<p> {{item.candidato}} </p>-->
+        </div>
+
+<div class="item item-body" >
+
+  <a class="item item-icon-right {{item.colorionic}}" href="#/app/historia/{{item.id}}">
+    Historia
+    <i class="icon ion-ios-arrow-right"></i>
+  </a>
+
+  <a class="item item-icon-right {{item.colorionic}}" href="#/app/detalle/{{item.id}}">
+    Programa
+    <i class="icon ion-ios-arrow-right"></i>
+  </a>
+
+
+  <a class="item item-icon-right {{item.colorionic}}" href="#/app/actualidad/{{item.id}}">
+    Actualidad
+      <i class="icon ion-ios-arrow-right"></i>
+  </a>
+
+  <a class="item item-icon-right {{item.colorionic}}" href="{{ item.web}}">
+
+     página web
+      <i class="icon ion-paper-airplane"></i>
+    </a>
+  </div>
+</div>
+  </ion-content>
+
+
+</ion-view>
